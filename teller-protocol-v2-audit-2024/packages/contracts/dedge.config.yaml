@@ -1,0 +1,11 @@
+config:
+  framework: "foundry" 
+  package_manager: "yarn"
+  node_version: "16" 
+
+environment:
+  SOME_CUSTOM_STRING_ENV_VAR: "some_custom_string_value"
+
+tasks:
+  install-dependencies:
+    - yarn install

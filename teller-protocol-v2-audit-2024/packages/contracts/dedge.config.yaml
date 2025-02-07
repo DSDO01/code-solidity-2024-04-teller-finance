@@ -20,3 +20,4 @@ tasks:
   install-dependencies:
     - yarn install
     - npm install hardhat
+    - npm install typescript

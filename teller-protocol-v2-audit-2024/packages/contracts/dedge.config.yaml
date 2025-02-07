@@ -21,3 +21,4 @@ tasks:
     - yarn install
     - npm install hardhat
     - npm install typescript
+    - npm install ts-node

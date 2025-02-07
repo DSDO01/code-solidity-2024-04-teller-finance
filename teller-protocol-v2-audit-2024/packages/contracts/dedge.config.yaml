@@ -1,11 +1,22 @@
 config:
-  framework: "foundry" 
+  framework: "hardhat" 
+  framework_version: ^2.16.1" 
+  node_version: "20" 
   package_manager: "yarn"
-  node_version: "16" 
 
 environment:
-  SOME_CUSTOM_STRING_ENV_VAR: "some_custom_string_value"
+  COMPILING: "false"
+  CMC_KEY: "false"
+  DEFAULT_NETWORK: "hardhat"
+  HARDHAT_DEPLOY_FORK: "http://localhost:8545"
+  SAVE_GAS_REPORT: "false"
+  SKIP_SIZER: "true"
+  TESTING: "1"
+  ALCHEMY_API_KEY: "4c0883a69102937d6231471b5dbb6204fe512961708279b7e1a1a5b8b8f3e5e7"
+  DEFENDER_API_KEY: "4c0883a69102937d6231471b5dbb6204fe512961708279b7e1a1a5b8b8f3e5e7"
+  DEFENDER_API_SECRET: "4c0883a69102937d6231471b5dbb6204fe512961708279b7e1a1a5b8b8f3e5e7"
 
 tasks:
   install-dependencies:
+    - forge install
     - yarn install

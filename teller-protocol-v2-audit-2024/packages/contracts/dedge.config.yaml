@@ -19,4 +19,4 @@ environment:
 tasks:
   install-dependencies:
     - yarn install
-    - yarn add --dev hardhat@^2.16.1
+    - npm install hardhat

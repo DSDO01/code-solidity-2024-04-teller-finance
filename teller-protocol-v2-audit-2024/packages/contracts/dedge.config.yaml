@@ -1,7 +1,7 @@
 config:
   framework: "hardhat" 
   framework_version: "^2.16.1" 
-  node_version: "16" 
+  node_version: "20" 
   package_manager: "yarn"
 
 environment:
@@ -22,3 +22,6 @@ tasks:
     - npm install hardhat@2.16.1
     - npm install typescript
     - npm install ts-node
+
+  pre-scan:
+    - n 16

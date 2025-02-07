@@ -19,4 +19,4 @@ environment:
 tasks:
   install-dependencies:
     - yarn install
-    - yarn add hardhat@^2.16.1
+    - yarn add --dev hardhat@^2.16.1

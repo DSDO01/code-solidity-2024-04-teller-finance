@@ -1,6 +1,6 @@
 config:
   framework: "hardhat" 
-  framework_version: ^2.16.1" 
+  framework_version: "^2.16.1" 
   node_version: "20" 
   package_manager: "yarn"
 

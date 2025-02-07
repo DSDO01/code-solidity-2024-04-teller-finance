@@ -19,6 +19,6 @@ environment:
 tasks:
   install-dependencies:
     - yarn install
-    - npm install hardhat
+    - npm install hardhat@2.16.1
     - npm install typescript
     - npm install ts-node
